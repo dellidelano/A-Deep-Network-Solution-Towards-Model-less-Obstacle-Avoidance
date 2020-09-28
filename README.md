@@ -10,5 +10,5 @@ Executing the project:
 2. Open the scene n VREP.
 3. Run the robot_controller.py script.
 
-The robot_controller.py is the core of the project in terms of operations. It will first train the CNN model using the training data and then move to control the robot. Control will be based on the images captured as the robot moves about the scene with the intention of avoiding obstances.
+The robot_controller.py is the core of the project in terms of operations. It will first train the CNN model using the training data and then move to control the robot. Control will be based on the images captured as the robot moves about the scene with the intention of avoiding obstances. The UI will also open giving users manual control of the robot if it gets stuck.
 
